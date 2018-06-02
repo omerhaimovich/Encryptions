@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" conktent="">
+    <meta name="author" content="">
+    <link rel="icon" href="/images/favicon.png">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/3rdParty/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" style="direction: rtl;">
+
+      <div class="plane main" style="margin-left: 20px;margin-right: 20px;">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+      </div>
+        <h1 style="padding-right: 20px; color: white; margin-left: 25px; font-family: inherit;">
+            שדה תעופה
+        </h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <form class="form-inline my-2 my-lg-0">         
+          <button class="btn btn-outline-light my-2 my-sm-0" type="button" data-toggle="modal" data-target="#exampleModal">בקשה חדשה</button>
+        </form>
+      </div>
+    </nav>
+
+      <div class="starter-template">
+        <div class="table-responsive">
+          <table class="table table-striped table-sm">
+            <thead>
+              <tr>                
+                <th>סטטוס</th>
+                <th>תיקיית יעד</th>
+                <th>קובץ/תיקיית מקור</th>
+                <th>מזהה</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>                
+                <td>Lorem</td>
+                <td>ipsum</td>
+                <td>dolor</td>                
+                <td>1</td>
+              </tr>          
+            </tbody>
+          </table>
+      </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <button type="button" class="close" data-dismiss="modal" style="margin: -1rem -1rem auto -1rem;" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h5 class="modal-title" id="exampleModalLabel">יצירת בקשה חדשה</h5>
+            </div>
+            <div class="modal-body">
+              <div class="input-group mb-3">
+                  
+                  <select class="custom-select" id="classificationSelect" style="direction:rtl;">
+                    <option selected>בחר סיווג</option>
+                    <option value="1">סודי</option>
+                    <option value="2">סודי ביותר</option>
+                    <option value="3">שמור</option>
+                  </select>
+                  <div class="input-group-prepend">
+                      <label class="input-group-text" for="classificationSelect">סיווג</label>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    
+                    <div class="custom-file">
+                        
+                      <input type="file" class="custom-file-input" id="fileToEncrypt" directory multiple required>                      
+                      <label class="custom-file-label" for="fileToEncrypt"></label>
+                    </div>          
+                  </div>      
+            </div>
+            <div class="modal-footer">              
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">בטל</button>
+              <button type="button" class="btn btn-primary">צור בקשה</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="/3rdParty/jquery/jquery-3.3.1.slim.min.js"></script>
+    <script src="/3rdParty/bootstrap/popper.min.js"></script>
+    <script src="/3rdParty/bootstrap/bootstrap.min.js"></script>
+  </body>
+</html>
